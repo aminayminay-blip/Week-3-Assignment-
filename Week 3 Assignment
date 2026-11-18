@@ -1,0 +1,11 @@
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    fullName VARCHAR(100),
+    age INT
+);INSERT INTO student (id, fullName, age)
+VALUES
+(1, 'Ahmed Ali', 18),
+(2, 'Amina Hassan', 19),
+(3, 'MohameUPDATE student
+SET age = 20
+WHERE id = 2;d Yusuf', 21);SELECT * FROM student;
